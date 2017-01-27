@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Clinic</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<script proton-src="https://use.fontawesome.com/9bbc811679.js"></script>
+
+ 	<!-- Попытки сделать красивое меню (НЕУДАЧНО) -->
+	<script type="text/javascript">
+			var doc = document.getElementsByClassName("ul_nav_home");
+			var on = 0;
+			if (on == 0) {
+				doc.style.visibility = "hidden";
+			} else if (on == 1) {
+				doc.style.visibility = "visible";
+			} else if (on >= 2) {
+				on = 0;
+			}
+
+			function menuM() {
+				on = on + 1;
+			}
+	</script>
+</head>
+<body>
+	
+	<header>
+		<div class="comp_name">
+			<div class="plus_ico">
+				<img src="dnod.png">
+			</div>
+			<div class="comp_name_title">COMPANY NAME</div>
+			<div class="comp_name_past_title">Tag Line Goes Here</div>
+		</div>
+		<div class="nav_button" onclick="menuM();">
+			<img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/three-bars-32.png">
+		</div>
+
+
+		<div class="nav_ul">
+			<div class="ul_nav_home">Home</div>
+			<div class="ul_nav_login">Login</div>
+			<div class="ul_nav_register">Register</div>
+		</div>
+
+
+		<div class="main_title">
+			<b>HELLO</b>
+		</div>
+		<div class="past_main_title">
+			<b>WE ARE ONLINE CLINIC</b>
+		</div>
+		
+	</header>
+
+	<div class="aboutus_panel">
+		<div class="title_panel">
+			ABOUT US 
+			<hr>
+		</div>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+	</div>
+	<div class="images">
+		<div class="med_one_img">
+			<img src="https://cdn2.iconfinder.com/data/icons/medical-icons-110/512/medical_icon_2-256.png">
+
+		</div>
+		<div class="med_two_img">
+			<img src="https://cdn2.iconfinder.com/data/icons/medical-icons-110/512/medical_icon_1-256.png">
+		</div>
+		<div class="med_three_img">
+			<img src="https://cdn2.iconfinder.com/data/icons/medical-icons-110/512/medical_icon_10-256.png">
+		</div>
+		<div class="med_one_text">Lorem ipsum dolor sit amet</div>
+		<div class="med_two_text">Lorem ipsum dolor sit amet</div>
+		<div class="med_three_text">Lorem ipsum dolor sit amet</div>
+	</div>
+	<footer>
+		<div class="footer_text">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua.
+		</div>
+	</footer>
+</body>
+</html>

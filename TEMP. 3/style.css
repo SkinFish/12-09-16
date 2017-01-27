@@ -1,0 +1,49 @@
+a , * a , a * {
+	text-decoration: none;
+	color: black;
+}
+.hw_top_nav {
+	position: fixed;
+	background-color: #ECECEC;
+	width: 100%;
+	display: inline-block;
+	z-index: 50;
+}
+.hw_top_nav_logo {
+	font-family: times;
+	font-size: 30px;
+	display: inline-block;
+}
+.hw_top_nav_button_lifestyle {
+	font-family: times;
+	display: inline-block;
+	margin-left: 35%;
+	padding: 1%;
+}
+.hw_top_nav_button_photodiary {
+	font-family: times;
+	display: inline-block;
+	margin-left: 4%;
+	padding: 1%;
+}
+.hw_top_nav_button_music {
+	font-family: times;
+	display: inline-block;
+	margin-left: 4%;
+	padding: 1%;
+}
+.hw_top_nav_button_travel {
+	font-family: times;
+	display: inline-block;
+	margin-left: 4%;
+	padding: 1%;
+}
+.hw_top_nav_button_travel:hover , .hw_top_nav_button_music:hover , .hw_top_nav_button_photodiary:hover , .hw_top_nav_button_lifestyle:hover {
+	transition: 0.5s;
+	background-color: darkgrey;
+	cursor: pointer;
+}
+img.text-center {
+	width: 80%;
+	height: 50%;
+}

@@ -1,0 +1,190 @@
+.ul_nav_home {
+	background-color: grey;
+	padding: 6px;
+	width: 5%;
+	margin-left: 87.5%;
+	margin-top: -4%;
+	visibility: hidden;
+}
+.ul_nav_login {
+	background-color: grey;
+	padding: 6px;
+	width: 5%;
+	margin-left: 87.5%;
+	visibility: hidden;
+}
+.ul_nav_register {
+	background-color: grey;
+	padding: 6px;
+	width: 5%;
+	margin-left: 87.5%;
+	visibility: hidden;
+}
+
+body {
+	font-family: sans-serif;
+	font-weight: bolder;
+	margin: 0;
+	padding: 0;
+	background-color: #DEDEDE;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+header {
+	background-color: #3FBACD;
+	margin-bottom: 15px;
+	padding: 18px;
+}
+.comp_name {
+	display: inline-block;
+}
+.plus_ico {
+	font-size: 30px;
+	font-weight: bolder;
+	display: inline;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+.comp_name_title {
+	display: inline-block;
+	position: relative;
+	top: -30px;
+}
+.comp_name_past_title {
+	position: relative;
+	top: -30px;
+	left: 110px;
+	font-weight: normal;
+}
+.nav_button {
+	display: inline-block;
+	position: relative;
+	left: 75%;
+	top: -25px;
+	border: 2px solid black;
+	padding: 5px;
+	padding-bottom: 0px;
+	padding-top: 2px;
+	border-radius: 90px;
+}
+.main_title {
+	color: white;
+	font-size: 80px;
+	margin-top: 75px;
+	margin-left: 40%;
+}
+.past_main_title {
+	color: white;
+	font-size: 30px;
+	margin-left: 35%;
+	margin-bottom: 8%;
+}
+
+.aboutus_panel {
+	margin-left: 25%;
+	margin-top: -6%;
+	border: 1px solid white;
+	background-color: white;
+	width: 50%;
+	border-radius: 10px;
+	box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+	margin-bottom: 5%;
+}
+.title_panel {
+	text-align: center;
+	font-size: 35px;
+}
+.title_panel > hr {
+	width: 35%;
+}
+.aboutus_panel > p {
+	font-size: 15px;
+	text-align: all;
+	padding: 10px;
+	font-weight: normal;
+}
+
+.med_one_img {
+	margin-left: 15%;
+	border: 2px solid white;
+	width: 20%;
+	border-radius: 8%;
+	background-color: white;
+	display: inline-block;
+}
+
+.med_two_img {
+	margin-left: 5%;
+	border: 2px solid white;
+	width: 20%;
+	border-radius: 8%;
+	background-color: white;
+	display: inline-block;
+}
+.med_three_img {
+	margin-left: 5%;
+	border: 2px solid white;
+	width: 20%;
+	border-radius: 8%;
+	background-color: white;
+	display: inline-block;
+}
+
+
+.med_one_img:hover {
+	transition: 0.5s;
+	background-color: #60ADE0;
+	border-color: #60ADE0;
+}
+.med_two_img:hover {
+	transition: 0.5s;
+	background-color: #60ADE0;
+	border-color: #60ADE0;
+}
+.med_three_img:hover {
+	transition: 0.5s;
+	background-color: #60ADE0;
+	border-color: #60ADE0;
+}
+.images {
+	margin-bottom: 2%;
+}
+.med_one_text {
+	margin-left: 12%;
+	font-weight: normal;
+	font-size: 25px;
+	text-align: center;
+	width: 25%;
+	display: inline-block;
+}
+.med_two_text {
+	margin-left: 1%;
+	font-weight: normal;
+	font-size: 25px;
+	text-align: center;
+	width: 25%;
+	display: inline-block;
+}
+.med_three_text {
+	margin-left: 1%;
+	font-weight: normal;
+	font-size: 25px;
+	text-align: center;
+	width: 25%;
+	display: inline-block;
+}
+
+footer {
+	background-color: #F35300;
+	padding: 35px;
+}
+.footer_text {
+	width: 90%;
+	font-weight: normal;
+	text-align: center;
+	font-size: 30px;
+	color: white;
+}

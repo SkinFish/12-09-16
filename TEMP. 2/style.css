@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-weight: bolder;
+	background-color: #E6E6E6;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.main_img > img {
+	width: 99.98%;
+}
+.main_img > .logo_img {
+	margin-top: -34%;
+	margin-left: 45%;
+}
+.logo_text {
+	color: #656565;
+	margin-left: 47%;
+	margin-top: -1.5%;
+	margin-bottom: 3%;
+}
+.logo_main_text_first_line {
+	margin-left: 43%;
+	font-size: 50px;
+	font-family: Times;
+}
+.logo_main_text_second_line {
+	margin-left: 30%;
+	font-size: 50px;
+	font-family: Times;
+}
+.play img {
+	margin-left: 48%;
+	background-color: white;
+	border: 1px solid white;
+	border-radius: 50px;
+}
+.play img:hover {
+	margin-left: 48%;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+.register_button > b {
+	padding: 15px;
+	background-color: #FF005D;
+	width: 10%;
+	border: 1px solid #FF005D;
+	border-radius: 90px;
+	margin-left: 45%;
+	box-shadow: 0px 0px 8px 0px #FF005D;
+}
+.search_input {
+	margin-left: 10%;
+	border: 1px solid silver;
+	background-color: silver;
+	width: 24%;
+	border-radius: 60px;
+	display: inline-block;
+}
+.search_input input {
+	margin-left: 2%;
+	margin-bottom: 1%;
+	display: inline-block;
+}
+.buttons {
+	display: inline-block;
+}
+.button_travel {
+	display: inline-block;
+	margin-left: 600px;
+}
+.bar {
+	margin-bottom: 5%;
+}
+.images {
+	margin-left: 10%;
+	display: inline-block;
+}
+.block_image {
+	display: inline-block;
+	margin-right: 40px;
+}
+.block_image p {
+	margin-right: 45px;
+}
+.block_image img{
+	border: 1px solid #E6E6E6;
+	border-radius: 10px;
+	display: inline-block;
+}
